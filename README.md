@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yasmina777-kz/yasmina777-kz/main/cover.jpg" alt="Black-and-white silhouettes against an angular illuminated panel." width="680" />
-</p>
-
 <h2 align="center">yasmina.</h2>
 
 <p align="center">
