@@ -1,46 +1,38 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yasmina777-kz/yasmina777-kz/main/yasmina-banner-simple.png" alt="Yasmina. Software, AI, education. A simple typographic banner." width="100%" />
+  <img src="https://raw.githubusercontent.com/yasmina777-kz/yasmina777-kz/main/cover.jpg" alt="Black-and-white silhouettes against an angular illuminated panel." width="680" />
 </p>
 
-<p align="center">
-  <strong>Turning ideas into tools for learning.</strong><br />
-  AI-powered education · Backend systems · Thoughtful web interfaces
-</p>
+<h2 align="center">yasmina.</h2>
 
 <p align="center">
-  <a href="https://yasmina777-kz.github.io/portfolio/"><strong>Explore my portfolio ↗</strong></a>
+  software / ai / education<br />
+  <a href="https://yasmina777-kz.github.io/portfolio/">portfolio ↗</a>
   &nbsp; · &nbsp;
-  <a href="https://github.com/yasmina777-kz?tab=repositories">Browse the code</a>
+  <a href="https://github.com/yasmina777-kz?tab=repositories">repositories</a>
 </p>
 
----
+Создаю образовательные приложения: API, интерактивные лекции и веб-интерфейсы.
 
-### A little about me
-
-Hi, I'm **Yasmina**. I build educational apps that connect practical interfaces with AI: classroom tools, interactive lectures, voice questions and real-time conversations.
-
-Мне интересно превращать сложные технологии в понятные инструменты для обучения.
-
-### My toolbox
+### stack
 
 <p>
-  <img alt="Python" src="https://img.shields.io/badge/Python-181B27?style=for-the-badge&amp;logo=python&amp;logoColor=C4B5FD" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-181B27?style=for-the-badge&amp;logo=fastapi&amp;logoColor=C4B5FD" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-181B27?style=for-the-badge&amp;logo=typescript&amp;logoColor=C4B5FD" />
-  <img alt="React" src="https://img.shields.io/badge/React-181B27?style=for-the-badge&amp;logo=react&amp;logoColor=C4B5FD" />
-  <img alt="Vue" src="https://img.shields.io/badge/Vue-181B27?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=C4B5FD" />
-  <img alt=".NET" src="https://img.shields.io/badge/.NET-181B27?style=for-the-badge&amp;logo=dotnet&amp;logoColor=C4B5FD" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-171717?style=for-the-badge&amp;logo=python&amp;logoColor=D4D4D4" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-171717?style=for-the-badge&amp;logo=fastapi&amp;logoColor=D4D4D4" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-171717?style=for-the-badge&amp;logo=typescript&amp;logoColor=D4D4D4" />
+  <img alt="React" src="https://img.shields.io/badge/React-171717?style=for-the-badge&amp;logo=react&amp;logoColor=D4D4D4" />
+  <img alt="Vue" src="https://img.shields.io/badge/Vue-171717?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=D4D4D4" />
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-171717?style=for-the-badge&amp;logo=dotnet&amp;logoColor=D4D4D4" />
 </p>
 
 `Nuxt` · `Pinia` · `SQLAlchemy` · `EF Core` · `PostgreSQL` · `SQLite` · `WebSockets`
 
-### Things I'm building
+### selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 📘 AI Mentor
+#### AI Mentor
 
 Interactive lectures with voice questions, notes and practice. Learning experiences in **Russian, English and Kazakh**.
 
@@ -51,7 +43,7 @@ Interactive lectures with voice questions, notes and practice. Learning experien
 </td>
 <td width="50%" valign="top">
 
-#### 🧠 Chatra · Backend
+#### Chatra / backend
 
 An education API connecting classes, assignments, AI grading, real-time chat and teacher-avatar lectures.
 
@@ -64,7 +56,7 @@ An education API connecting classes, assignments, AI grading, real-time chat and
 <tr>
 <td width="50%" valign="top">
 
-#### ✦ Chatra · Frontend
+#### Chatra / frontend
 
 The web interface for the Chatra education platform, paired with the backend above.
 
@@ -75,7 +67,7 @@ The web interface for the Chatra education platform, paired with the backend abo
 </td>
 <td width="50%" valign="top">
 
-#### ↗ Personal portfolio
+#### Portfolio
 
 A place for projects, experience and contact, with **RU / KZ / EN** language switching.
 
@@ -87,6 +79,4 @@ A place for projects, experience and contact, with **RU / KZ / EN** language swi
 </tr>
 </table>
 
-<p align="center">
-  <sub>Code with a purpose. Build with curiosity.</sub>
-</p>
+
