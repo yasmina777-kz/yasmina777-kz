@@ -1,78 +1,77 @@
-<h2 align="center">yasmina.</h2>
+<h2 align="center">Backend Developer</h2>
 
 <p align="center">
-  software / ai / education<br />
+  Python · FastAPI · Databases · AI integrations<br /><br />
   <a href="https://yasmina777-kz.github.io/portfolio/">portfolio ↗</a>
   &nbsp; · &nbsp;
   <a href="https://github.com/yasmina777-kz?tab=repositories">repositories</a>
 </p>
 
-Создаю образовательные приложения: API, интерактивные лекции и веб-интерфейсы.
+Я backend-разработчик. Создаю API, проектирую работу с базами данных и подключаю AI-сервисы к веб-приложениям. Основной фокус — **Python и FastAPI**. Также работаю с **ASP.NET Core** и пишу интерфейсы на React и Vue.
+
+Мне интересны образовательные продукты: от серверной логики и доступа к данным до интерактивных лекций, чатов и проверки заданий.
 
 ### stack
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-171717?style=for-the-badge&amp;logo=python&amp;logoColor=D4D4D4" />
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-171717?style=for-the-badge&amp;logo=fastapi&amp;logoColor=D4D4D4" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-171717?style=for-the-badge&amp;logo=typescript&amp;logoColor=D4D4D4" />
-  <img alt="React" src="https://img.shields.io/badge/React-171717?style=for-the-badge&amp;logo=react&amp;logoColor=D4D4D4" />
-  <img alt="Vue" src="https://img.shields.io/badge/Vue-171717?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=D4D4D4" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-171717?style=for-the-badge&amp;logo=postgresql&amp;logoColor=D4D4D4" />
   <img alt=".NET" src="https://img.shields.io/badge/.NET-171717?style=for-the-badge&amp;logo=dotnet&amp;logoColor=D4D4D4" />
 </p>
 
-`Nuxt` · `Pinia` · `SQLAlchemy` · `EF Core` · `PostgreSQL` · `SQLite` · `WebSockets`
+| Направление | Технологии |
+| :--- | :--- |
+| Backend | Python · FastAPI · C# · ASP.NET Core |
+| Данные | PostgreSQL · SQLite · SQLAlchemy · EF Core |
+| API и интеграции | REST · WebSockets · JWT · RAG · AI и speech API |
+| Frontend | TypeScript · React · Vue 3 · Nuxt 3 · Pinia |
 
-### selected work
+### selected projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+#### 01 / Chatra — образовательная платформа
 
-#### AI Mentor
+Приложение для работы с классами, учебными материалами и заданиями. Сервер объединяет учебный процесс, общение и AI-инструменты; веб-интерфейс даёт доступ к ним из одного приложения.
 
-Interactive lectures with voice questions, notes and practice. Learning experiences in **Russian, English and Kazakh**.
+**Что реализовано на backend:**
 
-`React` `TypeScript` `ASP.NET Core`
+- **Авторизация:** регистрация, вход, access/refresh JWT-токены и роли пользователей.
+- **Учебный процесс:** классы, задания, варианты работ, отправка решений, оценки и AI-проверка.
+- **Общение:** чаты, сообщения и обновления в реальном времени через WebSockets.
+- **Работа с материалами:** загрузка документов, извлечение текста, разбиение на фрагменты и поиск по ним с помощью RAG.
+- **Лекции с аватаром:** генерация учебного контента, интеграции с озвучкой и видео, согласование публикации администратором.
 
-**[Explore the project →](https://github.com/yasmina777-kz/lecturer-app)**
+Backend разделён на маршруты, схемы данных, CRUD-операции и сервисы. Во frontend — страницы классов, чатов и администрирования, общее состояние на Pinia и API-клиент с обновлением токенов.
 
-</td>
-<td width="50%" valign="top">
+`Python` `FastAPI` `SQLAlchemy` `WebSockets` `Vue 3` `Nuxt 3`
 
-#### Chatra / backend
+**[Backend →](https://github.com/yasmina777-kz/chatra-with-avatar-B)** · **[Frontend →](https://github.com/yasmina777-kz/chatra-with-avatar-F)**
 
-An education API connecting classes, assignments, AI grading, real-time chat and teacher-avatar lectures.
+---
 
-`Python` `FastAPI` `SQLAlchemy`
+#### 02 / AI Mentor — интерактивные лекции
 
-**[Explore the API →](https://github.com/yasmina777-kz/chatra-with-avatar-B)**
+Учебное приложение, в котором можно изучать тему, задавать вопросы голосом или текстом и закреплять материал практикой. Интерфейс и лекции поддерживают **русский, английский и казахский**.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Что внутри:**
 
-#### Chatra / frontend
+- Создание лекций по теме или материалам из PDF, DOCX, PPTX, TXT и Markdown.
+- Вопросы во время лекции, заметки, тесты и сохранение прогресса.
+- Серверные сессии с HttpOnly cookie, роли студента, преподавателя и администратора, проверка доступа к лекциям.
+- Учебные группы с кодами приглашения, назначение лекций и просмотр результатов.
+- Хранение данных через EF Core, поддержка SQLite и PostgreSQL, миграции базы данных.
+- Учёт AI-запросов и расхода токенов, интеграция с синтезом речи.
 
-The web interface for the Chatra education platform, paired with the backend above.
+`React` `TypeScript` `C#` `ASP.NET Core 8` `EF Core`
 
-`Vue 3` `Nuxt 3` `Pinia`
+**[Код и инструкция запуска →](https://github.com/yasmina777-kz/lecturer-app)**
 
-**[Explore the interface →](https://github.com/yasmina777-kz/chatra-with-avatar-F)**
+---
 
-</td>
-<td width="50%" valign="top">
+#### 03 / Portfolio — проекты и опыт
 
-#### Portfolio
-
-A place for projects, experience and contact, with **RU / KZ / EN** language switching.
+Личный сайт с отдельными страницами о себе, проектах, опыте и контактах. Переключение **RU / KZ / EN**, статические страницы без этапа сборки, публикация через GitHub Pages.
 
 `HTML` `CSS` `JavaScript`
 
-**[Visit the site →](https://yasmina777-kz.github.io/portfolio/)** · [Source](https://github.com/yasmina777-kz/portfolio)
-
-</td>
-</tr>
-</table>
-
-
+**[Открыть сайт ↗](https://yasmina777-kz.github.io/portfolio/)** · **[Исходный код →](https://github.com/yasmina777-kz/portfolio)**
