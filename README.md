@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yasmina777-kz/yasmina777-kz/main/yasmina-banner.png" alt="Yasmina — Code, AI, Learning. A luminous book becomes a neural constellation." width="100%" />
+  <img src="https://raw.githubusercontent.com/yasmina777-kz/yasmina777-kz/main/yasmina-banner-simple.png" alt="Yasmina. Software, AI, education. A simple typographic banner." width="100%" />
 </p>
 
 <p align="center">
